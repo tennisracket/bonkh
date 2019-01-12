@@ -22,6 +22,31 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="bonkh.py" />
+    <Compile Include="bonkh\database\config.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bonkh\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="manage.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="setup.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bonkh\" />
+    <Folder Include="bonkh\database\" />
+    <Folder Include="bonkh\database\databases\" />
+    <Folder Include="docs\" />
+    <Folder Include="tests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bonkh\database\config.ini" />
+    <Content Include="config.ini" />
+    <Content Include="LICENSE.txt" />
+    <Content Include="README.rst" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
