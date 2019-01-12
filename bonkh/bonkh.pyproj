@@ -44,7 +44,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bonkh\database\config.ini" />
-    <Content Include="config.ini" />
     <Content Include="LICENSE.txt" />
     <Content Include="README.rst" />
   </ItemGroup>
